@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct AuthView: View {
+    // MARK: - Properties
     @State private var email: String = ""
     @State private var password: String = ""
     
+    // MARK: - Body
     var body: some View {
             
             VStack(alignment: .leading, spacing: 10) {

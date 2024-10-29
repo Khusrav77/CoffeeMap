@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct CustomSecureField: View {
+    // MARK: - Properties
     @Binding var text: String
     let placeholder: String
     let image: String
+    
+    // MARK: - Body
     var body: some View {
         ZStack(alignment: .leading) {
             HStack{

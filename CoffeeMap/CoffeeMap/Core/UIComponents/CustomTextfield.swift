@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct CustomTextfield: View {
+    // MARK: - Properties
     @Binding var text: String
     let placeholder: String
     let image: String
+    
+    // MARK: - Body
     var body: some View {
         ZStack(alignment: .leading) {
             
