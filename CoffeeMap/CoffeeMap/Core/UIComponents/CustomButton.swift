@@ -19,11 +19,9 @@ struct CustomButton: View {
         } label: {
             Text(title)
             .frame(maxWidth: .infinity, maxHeight: 50)
-            .background(.background)
+            .foregroundStyle(.white)
+            .background(.black)
             .clipShape(RoundedRectangle(cornerRadius: 15))
-            .overlay(
-                RoundedRectangle(cornerRadius: 15)
-                    .stroke(Color.gray, lineWidth: 1))
         }
         .buttonStyle(.plain)
     }
